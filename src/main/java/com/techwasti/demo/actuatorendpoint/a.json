@@ -1,0 +1,20 @@
+{
+  "startupStep": {
+    "name": "spring.event.invoke-listener",
+    "id": 315,
+    "parentId": 0,
+    "tags": [
+      {
+        "key": "event",
+        "value": "ServletRequestHandledEvent: url=[/actuator/startup]; client=[127.0.0.1]; method=[POST]; servlet=[dispatcherServlet]; session=[null]; user=[null]; time=[2ms]; status=[OK]"
+      },
+      {
+        "key": "listener",
+        "value": "org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$CloseManagementContextListener@174e1b69"
+      }
+    ]
+  },
+  "startTime": "2020-10-18T04:52:15.345463056Z",
+  "endTime": "2020-10-18T04:52:15.345471202Z",
+  "duration": "PT0.000008146S"
+}
